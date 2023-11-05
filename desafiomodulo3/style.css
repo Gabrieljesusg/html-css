@@ -32,27 +32,31 @@ header p {
 }
 
 section#conteiner-texto1 {
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-bottom: 20px;
+    padding-top: 10vw;
+    padding-left: 30px;
+    padding-bottom: 10vw;
+    line-height: 2em;
     font-family: "Sriracha", sans-serif;
     text-align: justify;
+    font-size: 3.5vw;
+
 }
 
-#conteiner-texto1 p {
-
-    padding: 20px 8px;
-    
-    
-}
 
 section#conteiner-texto2 {
-    padding: 40px 0px 10px 20px;
+    
     font-family: "Sriracha", sans-serif;
-    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
     color: white;
     text-align: justify;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    padding-top: 10vw;
+    padding-left: 30px;
+    padding-bottom: 10vw;
+    line-height: 2em;
+    font-size: 3.5vw;
+    
     
     
 
@@ -60,22 +64,28 @@ section#conteiner-texto2 {
 
 #conteiner-texto2 p {
     background-color: rgba(0, 0, 0, 0.212);
-    padding: 10px 8px 8px 8px;
-    width:180px;
+    display: inline-block;
+    padding: 5px;
+    
+    
     
     
 }
 
 
 #conteiner-texto3 {
-    padding: 10px 0px 30px 8px ;
+    padding-top: 10vw;
+    padding-left: 30px;
+    padding-bottom: 10vw;
+    line-height: 2em;
+    font-size: 3.5vw;
 
     
 }
 
 #conteiner-texto3 p {
 
-    padding: 20px 0px 8px 8px;
+    
     font-family: "Sriracha", sans-serif;
     text-align: justify;
     
@@ -85,8 +95,13 @@ section#conteiner-texto2 {
 #conteiner-texto4 {
     background: black url(imagens/background002.jpg) center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     
-    padding: 30px 0px 30px 8px;
+    padding-top: 10vw;
+    padding-left: 30px;
+    padding-bottom:10vw;
+    line-height: 2em;
+    font-size: 3.5vw;
 }
     
 
@@ -94,26 +109,33 @@ section#conteiner-texto2 {
 
     font-family: "Sriracha", sans-serif;
     background-color: rgba(0, 0, 0, 0.397);
-    padding: 10px 8px 8px 8px;
-    width:180px;
     color: white;
     text-align: justify;
+    display: inline-block;
+    padding: 5px;
+    
+    
+    
 }
 
 #conteiner-texto5{
-    padding: 20px 8px 8px 10px ;
-}
+    padding-top: 10vw;
+    padding-left: 30px;
+    padding-bottom: 10vw;
+    line-height: 2em;
+    font-size: 3.5vw;}
     
 #conteiner-texto5 p {
     font-family: "Sriracha", sans-serif;
     text-align: justify;
-    padding: 10px 0px 20px 10px;
+    
 
 }
 
 footer{
     background-color: black;
     color: white;
+    padding: 5px;
 }
 footer p {
     text-align: center;
@@ -125,3 +147,4 @@ footer a {
     color: white;
     font-size: bold;
 }
+
