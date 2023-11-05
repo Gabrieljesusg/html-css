@@ -3,13 +3,16 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 header {
     background-color: black;
-    height: 100px;
+    height: 5%;
     text-align: center;
     padding-top: 30px;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 header p {
@@ -18,7 +21,6 @@ header p {
 
 #container-titulo {
     color: white;
-    font-weight: 600;
     font-size: 10vw;
     font-family: "Passion One", sans-serif;
 }
@@ -34,11 +36,92 @@ section#conteiner-texto1 {
     padding-left: 10px;
     padding-bottom: 20px;
     font-family: "Sriracha", sans-serif;
+    text-align: justify;
+}
+
+#conteiner-texto1 p {
+
+    padding: 20px 8px;
+    
+    
 }
 
 section#conteiner-texto2 {
-    padding-top: 40px;
-    padding-left: 10px;
-    padding-bottom: 20px;
+    padding: 40px 0px 10px 20px;
     font-family: "Sriracha", sans-serif;
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    text-align: justify;
+    
+    
+
+}
+
+#conteiner-texto2 p {
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: 10px 8px 8px 8px;
+    width:180px;
+    
+    
+}
+
+
+#conteiner-texto3 {
+    padding: 10px 0px 30px 8px ;
+
+    
+}
+
+#conteiner-texto3 p {
+
+    padding: 20px 0px 8px 8px;
+    font-family: "Sriracha", sans-serif;
+    text-align: justify;
+    
+}
+
+
+#conteiner-texto4 {
+    background: black url(imagens/background002.jpg) center no-repeat fixed;
+    background-size: cover;
+    
+    padding: 30px 0px 30px 8px;
+}
+    
+
+#conteiner-texto4 p {
+
+    font-family: "Sriracha", sans-serif;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 10px 8px 8px 8px;
+    width:180px;
+    color: white;
+    text-align: justify;
+}
+
+#conteiner-texto5{
+    padding: 20px 8px 8px 10px ;
+}
+    
+#conteiner-texto5 p {
+    font-family: "Sriracha", sans-serif;
+    text-align: justify;
+    padding: 10px 0px 20px 10px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer p {
+    text-align: center;
+}
+
+footer a {
+
+    text-decoration: none;
+    color: white;
+    font-size: bold;
 }
