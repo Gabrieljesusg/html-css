@@ -87,7 +87,7 @@ section#conteiner-texto2 {
 }
 
 #conteiner-texto4 {
-    background: black url(imagens/background002.jpg) center no-repeat fixed;
+    background: black url(imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     padding-top: 10vw;
