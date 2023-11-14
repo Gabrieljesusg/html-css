@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulários</title>
+    </head>
+    <body>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <h1>exemplo de formulário</h1>
+
+            <!-- Se pode definir uma cor já pré definida com o Value assim já colocando a cor primária
+            ex: <input type= "color" name="cor" id="icor" value="#00ff00"-->
+
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor" />
+            </p>
+            <!-- No input de nível se pode colocar valor de min e maximo, baseado na ideia que deseja ser colocada-->
+            <p>
+                <label for="inivel">Nível de satisfação</label>
+                <input type="range" name="nivel" id="inivel" min="1" max="30" />
+            </p>
+
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+        </form>
+    </body>
+</html>
