@@ -6,7 +6,7 @@
         <title>Formulários</title>
     </head>
     <body>
-        <form action="cadastro.php" method="get" autocomplete="on">
+        <form action="cadastro.php" method="podt" autocomplete="on">
             <h1>exemplo de formulário</h1>
 
             <!-- Se pode definir uma cor já pré definida com o Value assim já colocando a cor primária
@@ -19,7 +19,12 @@
             <!-- No input de nível se pode colocar valor de min e maximo, baseado na ideia que deseja ser colocada-->
             <p>
                 <label for="inivel">Nível de satisfação</label>
-                <input type="range" name="nivel" id="inivel" min="1" max="30" />
+                <input type="range" name="nivel" id="inivel" min="0" max="50" />
+            </p>
+            <!-- Para que seja utilizada as imagens em um site, devemos utilizar o METHOD="POST" pois ele deve ser usado quando o valor das informações passam de 3,000 kb de peso.-->
+            <p>
+                <label for="ifoto">Defina uma imagem</label>
+                <input type="file" name="foto" id="ifoto" />
             </p>
 
             <input type="submit" value="Enviar" />
@@ -27,3 +32,4 @@
         </form>
     </body>
 </html>
+* ! 
