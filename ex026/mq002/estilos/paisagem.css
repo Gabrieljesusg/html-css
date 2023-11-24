@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /* APARELHO DEITADO (MODO LANDSCAPE)*/
+
+
+body{
+  background: black url(../imagens/cev-landscape.jpg) left bottom no-repeat ;
+  
+  
+}
